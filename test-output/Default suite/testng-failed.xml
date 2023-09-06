@@ -5,7 +5,7 @@
     <classes>
       <class name="testLayer.LoginTest">
         <methods>
-          <include name="Login" invocation-numbers="0 1 2"/>
+          <include name="Login"/>
           <include name="initsetup"/>
           <include name="Close"/>
         </methods>

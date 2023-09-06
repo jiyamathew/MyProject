@@ -35,7 +35,7 @@ public class BaseHRMClass {
 
 	}
 
-	public static void initiate() {
+	public static void initiate() throws InterruptedException {
 		String browsername = prop.getProperty("browser");
 		if (browsername.equals("Firefox")){
 			System.setProperty("webdriver.geckodriver", "geckodriver.exe");

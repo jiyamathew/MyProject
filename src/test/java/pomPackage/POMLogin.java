@@ -8,15 +8,14 @@ import basePackage.BaseHRMClass;
 
 public class POMLogin extends BaseHRMClass {
 
-	@FindBy(name="username")
+	@FindBy(id="username")
 	
 	WebElement Username;
-	@FindBy(name = "password")
+	@FindBy(id= "password")
 	WebElement Password;
 	
-	  @FindBy(xpath=
-	  "//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")
-	  WebElement loginbtn;
+	  @FindBy(id="log-in")
+	WebElement loginbtn;
 	 
 
 	public POMLogin() {

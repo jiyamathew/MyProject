@@ -20,18 +20,18 @@ public class LoginTest extends BaseHRMClass {
     }
 	
 	@BeforeMethod
-public void initsetup() {
+public void initsetup() throws InterruptedException {
 		initiate();
 		screenshots("Login");
 		 Log=new POMLogin();
-		
+	
 	}
 	
 	@Test(priority=1)
 	public void Title(){
 		String actual = Log.verify();
 		System.out.println(actual);
-		Assert.assertEquals(actual,"OrangeHRM");
+		Assert.assertEquals(actual,"ACME Demo App by Applitools");
 		}
 	@DataProvider
 	public Object[][] Details(){
@@ -44,13 +44,13 @@ public void initsetup() {
 	public void Login(String name, String password) {
 		Log.typeusername(name);
 		Log.typepassowrd(password);
-		//Log.clickbtn();
+		Log.clickbtn();
 				
 	}
 	
 	
 	@AfterMethod
-	public void Close() {
+	public void Close() throws InterruptedException {
 		driver.close();
 	}
 	 
