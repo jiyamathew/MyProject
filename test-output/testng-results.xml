@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-05T22:51:34 EDT" name="Default suite" finished-at="2023-09-05T22:52:26 EDT" duration-ms="51129">
+  <suite started-at="2023-09-06T08:53:47 EDT" name="Suite" finished-at="2023-09-06T08:54:41 EDT" duration-ms="54108">
     <groups>
     </groups>
-    <test started-at="2023-09-05T22:51:34 EDT" name="Default test" finished-at="2023-09-05T22:52:26 EDT" duration-ms="51129">
+    <test started-at="2023-09-06T08:53:47 EDT" name="Test" finished-at="2023-09-06T08:54:41 EDT" duration-ms="54108">
       <class name="testLayer.LoginTest">
-        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:51:35 EDT" name="initsetup" finished-at="2023-09-05T22:51:46 EDT" duration-ms="11427" status="PASS">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:53:47 EDT" name="initsetup" finished-at="2023-09-06T08:54:01 EDT" duration-ms="14219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initsetup -->
-        <test-method signature="Title()[pri:1, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:51:46 EDT" name="Title" finished-at="2023-09-05T22:51:46 EDT" duration-ms="23" status="PASS">
+        <test-method signature="Title()[pri:1, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:01 EDT" name="Title" finished-at="2023-09-06T08:54:01 EDT" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Title -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:51:46 EDT" name="Close" finished-at="2023-09-05T22:51:48 EDT" duration-ms="1723" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:01 EDT" name="Close" finished-at="2023-09-06T08:54:04 EDT" duration-ms="2677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:51:49 EDT" name="initsetup" finished-at="2023-09-05T22:51:58 EDT" duration-ms="9195" status="PASS">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:06 EDT" name="initsetup" finished-at="2023-09-06T08:54:13 EDT" duration-ms="7103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initsetup -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:2, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:51:58 EDT" name="Login" data-provider="Details" finished-at="2023-09-05T22:51:59 EDT" duration-ms="970" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:2, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:13 EDT" name="Login" data-provider="Details" finished-at="2023-09-06T08:54:14 EDT" duration-ms="800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:51:59 EDT" name="Close" finished-at="2023-09-05T22:52:02 EDT" duration-ms="2580" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:14 EDT" name="Close" finished-at="2023-09-06T08:54:16 EDT" duration-ms="1942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:52:02 EDT" name="initsetup" finished-at="2023-09-05T22:52:11 EDT" duration-ms="9430" status="PASS">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:16 EDT" name="initsetup" finished-at="2023-09-06T08:54:23 EDT" duration-ms="6395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initsetup -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:2, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:52:11 EDT" name="Login" data-provider="Details" finished-at="2023-09-05T22:52:12 EDT" duration-ms="851" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:2, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:23 EDT" name="Login" data-provider="Details" finished-at="2023-09-06T08:54:23 EDT" duration-ms="659" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:52:12 EDT" name="Close" finished-at="2023-09-05T22:52:14 EDT" duration-ms="2308" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:23 EDT" name="Close" finished-at="2023-09-06T08:54:26 EDT" duration-ms="2851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:52:14 EDT" name="initsetup" finished-at="2023-09-05T22:52:22 EDT" duration-ms="8019" status="PASS">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:26 EDT" name="initsetup" finished-at="2023-09-06T08:54:36 EDT" duration-ms="9913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initsetup -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:2, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:52:22 EDT" name="Login" data-provider="Details" finished-at="2023-09-05T22:52:23 EDT" duration-ms="903" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:2, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:36 EDT" name="Login" data-provider="Details" finished-at="2023-09-06T08:54:37 EDT" duration-ms="1101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-05T22:52:23 EDT" name="Close" finished-at="2023-09-05T22:52:26 EDT" duration-ms="2362" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:testLayer.LoginTest@72e5a8e]" started-at="2023-09-06T08:54:37 EDT" name="Close" finished-at="2023-09-06T08:54:41 EDT" duration-ms="3913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
       </class> <!-- testLayer.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
